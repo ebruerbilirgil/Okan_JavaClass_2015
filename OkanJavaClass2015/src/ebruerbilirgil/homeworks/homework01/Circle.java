@@ -21,7 +21,7 @@ public class Circle {
        PI=3.14159;
        double radius;
        radius=21;
-       double cevre=2*PI*(radius*radius);
+       double cevre=2*PI*radius;
        double alan=PI*(radius*radius);
        System.out.println("Çevre="+cevre);
        System.out.println("Alan="+alan);
