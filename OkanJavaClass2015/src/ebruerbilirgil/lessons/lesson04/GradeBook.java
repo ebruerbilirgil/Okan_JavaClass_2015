@@ -10,6 +10,7 @@ package ebruerbilirgil.lessons.lesson04;
  *
  * @author User
  */
+//new belleği ayırıyo, constructor dolduruyo.
 public class GradeBook {
     
     String myname;
