@@ -16,11 +16,12 @@ public class GradeBook {
     
     public GradeBook(String name)
     {
-        myname=name;
+                myname=name;
     }
-    public GradeBook()
+    public GradeBook()//constructor'lar sınıfla aynı isimle olucak.
             {
-                myname="anonim";
+                this("anonim");
+//                myname="anonim";
             }
     public void displayMessage()
     
