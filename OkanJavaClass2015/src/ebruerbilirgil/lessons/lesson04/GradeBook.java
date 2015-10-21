@@ -26,7 +26,7 @@ public class GradeBook {
                 this("anonim");//this bir cont. dan diğer cont. ı çağırmak için kullandık. ilk satırda olmalı.Aynı kodu birden fazla yazmamak için.
 //                myname="anonim";
             }
-    public void displayMessage()
+    public void displayMessage()//voidse dönüş tipi boş. bu metoddan bir şey beklemiyorum.
     
    {
    System.out.println(myname+" Hello");
