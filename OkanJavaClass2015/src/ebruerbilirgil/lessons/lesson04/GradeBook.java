@@ -13,6 +13,11 @@ package ebruerbilirgil.lessons.lesson04;
 public class GradeBook {
     
     String myname;
+    
+    public GradeBook(String name)
+    {
+        myname=name;
+    }
     public void displayMessage()
     
    {
@@ -23,13 +28,13 @@ public class GradeBook {
    {
    GradeBook my,yours;
    
-   my=new GradeBook();
-   my.myname="Benim";
+   my=new GradeBook("Benim");
+//   my.myname="Benim";
    my.displayMessage();
    
    
-   yours=new GradeBook();
-   yours.myname="Sizin";
+   yours=new GradeBook("Sizin");
+//   yours.myname="Sizin";
    yours.displayMessage();
    
    }
