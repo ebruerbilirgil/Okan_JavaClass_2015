@@ -18,6 +18,10 @@ public class GradeBook {
     {
         myname=name;
     }
+    public GradeBook()
+            {
+                myname="anonim";
+            }
     public void displayMessage()
     
    {
@@ -33,7 +37,8 @@ public class GradeBook {
    my.displayMessage();
    
    
-   yours=new GradeBook("Sizin");
+//   yours=new GradeBook("Sizin");
+   yours=new GradeBook();
 //   yours.myname="Sizin";
    yours.displayMessage();
    
