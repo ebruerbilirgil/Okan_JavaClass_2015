@@ -23,7 +23,7 @@ public class GradeBook {
     }
     public GradeBook()//constructor'lar sınıfla aynı isimle olucak.
             {
-                this("anonim");
+                this("anonim");//this bir cont. dan diğer cont. ı çağırmak için kullandık. ilk satırda olmalı.
 //                myname="anonim";
             }
     public void displayMessage()
