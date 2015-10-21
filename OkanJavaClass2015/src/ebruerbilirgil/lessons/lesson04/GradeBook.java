@@ -54,7 +54,7 @@ public class GradeBook {
         return true;
     }
 
-    
+    //nesne bellekte yer tutar.sınıf onun neye benzediğini gösteren plan(veri tipi.) 
    public static void main (String[] args)
    {
    GradeBook my,yours;
