@@ -6,7 +6,7 @@ package ebruerbilirgil.homeworks.homework01;
 
 /**
  *
- * @author alikatkar
+ * @author ebruerbilirgil
  */
 public class Loops {
      public static void main(String[] args) {

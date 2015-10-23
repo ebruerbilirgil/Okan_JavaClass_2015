@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author alikatkar
+ * @author ebruerbilirgil
  */
 public class Comparison {
 

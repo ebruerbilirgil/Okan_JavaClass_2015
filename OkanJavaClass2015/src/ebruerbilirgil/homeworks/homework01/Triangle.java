@@ -6,7 +6,7 @@ package ebruerbilirgil.homeworks.homework01;
 
 /**
  *
- * @author alikatkar
+ * @author ebruerbilirgil
  */
 public class Triangle {
     
