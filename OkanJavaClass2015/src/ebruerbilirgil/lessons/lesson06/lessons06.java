@@ -24,5 +24,12 @@ public class lessons06 {
         {
             System.out.println("i:"+i);
         }
+        
+        String s1="file";
+        String fname=s1+".txt";
+        System.out.println("fname:"+fname);
+        
+        s1+=".txt";
+        System.out.println("s1:"+s1);
     }
 }
