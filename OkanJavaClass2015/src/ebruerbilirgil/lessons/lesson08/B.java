@@ -11,8 +11,10 @@ package ebruerbilirgil.lessons.lesson08;
  * @author User
  */
 public class B extends A{
-    
-        public B(){
+        private int lit;
+        public B(int num, int lit){
+            super (num);
+            this.lit=lit;
             System.out.println("B yapıcısı");
         }
 }

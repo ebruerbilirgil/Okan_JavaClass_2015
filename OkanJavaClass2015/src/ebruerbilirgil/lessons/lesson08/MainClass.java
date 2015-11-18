@@ -13,6 +13,6 @@ package ebruerbilirgil.lessons.lesson08;
 public class MainClass {
     public static void main(String []args){
     
-        C c=new C();    
+        C c=new C(5,7);    
     }
 }

@@ -12,7 +12,8 @@ package ebruerbilirgil.lessons.lesson08;
  */
 public class C extends B {
     
-   public C(){
+   public C(int num, int lit){
+       super (num, lit);
        System.out.println("C yapıcısı");
    }
 }

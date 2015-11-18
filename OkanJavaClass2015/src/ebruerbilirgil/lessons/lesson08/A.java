@@ -12,8 +12,11 @@ package ebruerbilirgil.lessons.lesson08;
  */
 public class A {
     
-    public A(){
+    private int num;
+    
+    public A(int num){
         System.out.println("A yapıcısı çalışıyor.");
+        this.num=num;
     }
     
 }
