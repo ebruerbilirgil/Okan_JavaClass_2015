@@ -21,7 +21,7 @@ public class DemoChaining1 {
             FileReader fr = new FileReader(file);
             BufferedReader bf = new BufferedReader(fr);
             while ((s = bf.readLine()) != null) {
-                System.out.println("s");
+                System.out.println(s);
             }
         } catch (IOException e) {
             e.printStackTrace();
